@@ -46,8 +46,7 @@ export default {
   },
   vuex: {
     getters: {
-      order: (state) => state.curOrder,
-      foodList: (state) => state.curOrder.food_list,
+      foodList: (state) => state.curOrder.content,
       totalPrice
     }
   },
